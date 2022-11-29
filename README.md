@@ -33,6 +33,8 @@ We release two configurations of models:
 
 ### Running trained models
 
+Download the trained models here: https://drive.google.com/drive/folders/1iwkfMvtyP-6k3jTIsUDB8rW7f4sFLPiH?usp=sharing
+
 The snac_evaluate.py file expects a validation file (.tsv) with 3 columns: id, context, sentence. Each row should contain the next sentence  to be evaluated (sentence column), the context until that point in the story, i.e. the (n-1) sentences leading up to the next sentence (context column). I've included a sample.tsv here. 
 
 To run this code, preprocess your summaries to tokenize into sentences and convert to the format above. A summary with n sentences should correspond to n rows. 
